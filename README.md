@@ -11,8 +11,8 @@ Add this gem to your Gemfile and bundle:
 
 You need to sign up for an OAuth2 Application ID and Secret
 on the [FI-WARE IdM GE](https://idm.lab.fi-ware.eu). Afterwards, configure it
-in your application. If you are using Devise, you can add the followint to
-<pre>config/initializers/devise.rb</pre>
+in your application. If you are using Devise, you can add the following to 
+config/initializers/devise.rb
 
     provider :fiware, <CLIENT_KEY>, <CLIENT_SECRET>
 
