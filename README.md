@@ -7,7 +7,7 @@ Generic Enabler (IdM GE) placed at https://idm.lab.fi-ware.eu/
 
 Add this gem to your Gemfile and bundle:
 
-  gem 'omniauth-fiware'
+    gem 'omniauth-fiware'
 
 You need to sign up for an OAuth2 Application ID and Secret
 on the [FI-WARE IdM GE](https://idm.lab.fi-ware.eu). Afterwards, configure it
